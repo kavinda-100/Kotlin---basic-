@@ -28,6 +28,9 @@ fun checkWhetherUpperCase(text: String): String {
         return text.lowercase()
     }
     return text
+
+    // TODO: you can use the following code instead of the above code
+    //TODO: return if(text == text.uppercase()) text.lowercase() else text
 }
 
 fun firstLetterUpperCase(name: String): String{
